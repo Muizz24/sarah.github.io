@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Labade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Interior Designer</p>
+            <h1>Hi, I'm <span>Sarah</span><br>Labade From Syria</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate recent interior design graduate based in Toronto. My fascination with design began early as I crafted dioramas and drew inspiration from the worlds of art and fashion. During high school, I landed an internship at an interior design company, pushing me to pursue Interior design as a career. My work always aims for sustainable design with lots of biophilia.  Outside of design, I enjoy painting and long-distance running.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('volunteer')">Volunteer</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Softwares</span><br>Autocad, Sketchup, Enscape, Photoshop, Excel, Microsoft Office, and Revit.</li>
+                        <li><span>Efficient Problem Solver</span><br>Organized & excellent time management</li>
+                        <li><span>Languages</span><br>Fluent in English and Arabic</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Junior Interior Design Assistant Intern at FW LUX</li>
+                        <li><span>2022</span><br>Project Coordinator Intern at Sheridan College</li>
+                        <li><span>2018</span><br>Intern at TED Design International</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>Bachelor of Interior Design at Sheridan College</li>
+                        <li><span>Location</span><br>HMC2 Mississauga Campus</li>
+                        <li><span>Relevant courses</span><br>Design theory, Digital communications, Sustainable practices, Advanced Studio, Lighting</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="volunteer">
+                    <ul>
+                        <li><span>2018</span><br>2018 Tutor/translator</li>
+                        <li><span>2017-2018</span><br>NOW program peer leader</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-draw-polygon"></i>
+                <h2>Professional Renders</h2>
+                <p>Create your high quality renders of desired interiors for clients using the latest softwares available.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-user-edit"></i>
+                <h2>Face to Face designing</h2>
+                <p>Consultations and meetings with clients to get direct measurements of interiors and provide details to the style and approach of the interior</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-tasks"></i>
+                <h2>Interior Design Management</h2>
+                <p>Lead a team of interior designers for a project to ensure efficient and effective planning for the clients needs and time constraints.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>1 Strength St.</h3>
+                    <p>Project 1 strength street is a 2 bedroom, 2 bath basement apartment. The overall design is inspired by a "hotel chic" style as per the client's request. The final renderings were achieved in a combination of using Autocad, Sketchup, and Enscape. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Cabinetry</h3>
+                    <p>This project was in collaboration with a contractor. Given specific measurements and client style preferences, we curated the most suitable built-in wall cabinetry. This render was done using Google Sketchup and Enscape.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Age of Grace</h3>
+                    <p>As a Theis project, Age of Grace was constructed to be a center for domestic abuse victims. With over 20 rooms and multiple social spaces, Age of Grace takes on a biophilic, inclusive, and modern approach to its design process. Work created on Autocad, Sketchup, Enscape, and Sketch art tools. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> sarahlabade@hotmail.ca</p>
+                <p><i class="fas fa-phone-square-alt"></i> 437-770-1552</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1vdipvS7IztatYfJeKRyaR_Uly2MNuQZW/view?usp=sharing" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
